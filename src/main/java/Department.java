@@ -1,4 +1,4 @@
-import Employee.Employee;
+import Employee.IEmployee;
 import enums.EBrand;
 
 import java.util.List;
@@ -6,5 +6,5 @@ import java.util.List;
 public class Department {
     List<EBrand> brands;
     List<Goods> goods;
-    List<Employee> consultants;
+    List<IEmployee> consultants;
 }

@@ -1,4 +1,4 @@
 package Employee;
 
-public class StoreKeeper extends Employee {
+public class StoreKeeper extends IEmployee {
 }

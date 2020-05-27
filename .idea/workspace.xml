@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346cfca5-d4a7-48cf-85d2-5789257c97e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Employee/StoreKeeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GoodsWraper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/EDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/EGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/EBrand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TeamShopExtend/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

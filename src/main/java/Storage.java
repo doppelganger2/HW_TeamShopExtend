@@ -1,4 +1,4 @@
-import Employee.Employee;
+import Employee.IEmployee;
 import enums.EBrand;
 import enums.EDepartment;
 import enums.EGroup;
@@ -11,5 +11,5 @@ public class Storage {
     List<EBrand> brands;
     List<EGroup> groups;
     List<EDepartment> departments;
-    Employee storeKeeper;
+    IEmployee storeKeeper;
 }

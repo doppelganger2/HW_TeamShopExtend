@@ -1,7 +1,9 @@
-import Employee.IEmployee;
-import enums.EBrand;
-import enums.EDepartment;
-import enums.EGroup;
+package shop;
+
+import shop.Employee.IEmployee;
+import shop.enums.EBrand;
+import shop.enums.EDepartment;
+import shop.enums.EGroup;
 
 import java.util.List;
 import java.util.Map;

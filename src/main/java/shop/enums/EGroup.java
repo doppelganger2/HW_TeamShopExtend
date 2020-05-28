@@ -1,4 +1,4 @@
-package enums;
+package shop.enums;
 
 public enum EGroup {
 

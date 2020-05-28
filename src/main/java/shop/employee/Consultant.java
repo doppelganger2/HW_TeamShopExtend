@@ -1,12 +1,17 @@
 package shop.employee;
 
 import shop.Department;
+import shop.enums.ERole;
 
 import java.util.Objects;
 import java.util.StringJoiner;
 
 public class Consultant extends Employee{
     private Department department;
+
+    public Consultant(String name, ERole role) {
+        super(name, role);
+    }
 
 
     public Department getDepartment() {

@@ -27,6 +27,10 @@ public class Goods {
         this.info = info;
     }
 
+    public String getUniqueName() {
+        return name + " " + brand + " " + group;
+    }
+
     public long getId() {
         return id;
     }

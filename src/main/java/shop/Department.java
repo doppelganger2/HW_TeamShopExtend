@@ -28,11 +28,11 @@ public class Department {
         return consultants;
     }
 
-    public void addConsultant(Employee consultant){
-       this.consultants.add(consultant);
+    public void addConsultant(Employee consultant) {
+        this.consultants.add(consultant);
     }
 
-    public void removeConsultant(Employee consultant){
+    public void removeConsultant(Employee consultant) {
         this.consultants.remove(consultant);
     }
 

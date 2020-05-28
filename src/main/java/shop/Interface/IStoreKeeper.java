@@ -37,7 +37,5 @@ public interface IStoreKeeper {
 
     String generateUniqueName(Goods good);
 
-    Goods transferToDepartment();
-
-
+    Goods transferToDepartment(String uniqueName);
 }

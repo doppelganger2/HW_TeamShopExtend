@@ -21,6 +21,18 @@ public class GoodsWrapper {
         return count;
     }
 
+    public void addOne(){
+        ++count;
+    }
+
+    public Goods removeOne(){
+        if (count > 0){
+            --count;
+            return this.goods;
+        }
+        return null;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

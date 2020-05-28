@@ -49,6 +49,14 @@ public class Customer {
         this.money = money;
     }
 
+    public void setDiscount(double discount) {
+        this.discount = discount;
+    }
+
+    public void setCheck(Check check) {
+        this.check = check;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

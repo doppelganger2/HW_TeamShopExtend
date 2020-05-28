@@ -10,5 +10,5 @@ public interface ICashier {
 
     double getTotalCost(List<Goods> goods);
 
-    Check transaction(double totalCost, Customer customer);
+    Check transaction(Customer customer);
 }

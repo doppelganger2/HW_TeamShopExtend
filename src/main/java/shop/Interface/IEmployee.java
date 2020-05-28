@@ -1,4 +1,4 @@
-package Interface;
+package shop.Interface;
 
 public interface IEmployee {
 }

@@ -1,6 +1,7 @@
 package shop;
 
-import shop.Employee.IEmployee;
+
+import shop.employee.Employee;
 import shop.enums.EBrand;
 import shop.enums.EDepartment;
 import shop.enums.EGroup;
@@ -9,9 +10,9 @@ import java.util.List;
 import java.util.Map;
 
 public class Storage {
-    Map<String,GoodsWraper> goodsMap;
+    Map<String, GoodsWrapper> goodsMap;
     List<EBrand> brands;
     List<EGroup> groups;
     List<EDepartment> departments;
-    IEmployee storeKeeper;
+    Employee storeKeeper;
 }

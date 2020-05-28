@@ -20,8 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346cfca5-d4a7-48cf-85d2-5789257c97e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/IAdministrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/ICashier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/ISecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/IStoreKeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Cashier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Consultant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/employee/StoreKeeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TeamShopExtend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Employee/IEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Employee/StoreKeeper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GoodsWraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/GoodsWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/IEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/IEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/EBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/enums/EBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/EDepartment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/enums/EDepartment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/EGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/enums/EGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/enums/ERole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +56,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,6 +79,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,11 +104,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1590570140751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590570140751" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1590661787596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590661787596" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1590592527159">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590592527159" />
   </component>
 </project>

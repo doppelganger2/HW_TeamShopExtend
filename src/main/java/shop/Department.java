@@ -1,6 +1,6 @@
 package shop;
 
-import shop.Employee.IEmployee;
+import shop.employee.IEmployee;
 import shop.enums.EBrand;
 
 import java.util.List;

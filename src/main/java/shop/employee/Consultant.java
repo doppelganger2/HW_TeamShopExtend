@@ -1,4 +1,4 @@
-package shop.employee;
+package shop.Employee;
 
 import shop.Department;
 import shop.Goods;
@@ -78,5 +78,37 @@ public class Consultant implements IConsultant {
             }
         }
         return "Sorry, we don't have product with this name";
+
+    public Consultant(String name, ERole role) {
+        super(name, role);
+    }
+
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Consultant that = (Consultant) o;
+        return Objects.equals(department, that.department);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(department);
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", Consultant.class.getSimpleName() + "[", "]")
+                .add("department=" + department)
+                .toString();
     }
 }

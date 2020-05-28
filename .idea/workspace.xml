@@ -20,8 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346cfca5-d4a7-48cf-85d2-5789257c97e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/TokenGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TeamShopExtend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Check.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Goods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/GoodsWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/GoodsWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Interface/IAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/IAdministrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Interface/ICashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/ICashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Interface/IStoreKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/IStoreKeeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Consultant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Consultant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Security.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/StoreKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/StoreKeeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/enums/EBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/enums/EBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/enums/EGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/enums/EGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/enums/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/enums/ERole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,6 +74,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,11 +99,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1590570140751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590570140751" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1590683195368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590683195368" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590677524189">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1590677524189" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1590669402587">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590669402587" />
+    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1590691603080">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590691603080" />
   </component>
 </project>

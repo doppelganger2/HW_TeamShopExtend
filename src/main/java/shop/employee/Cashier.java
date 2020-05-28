@@ -1,4 +1,4 @@
-package shop.employee;
+package shop.Employee;
 
 import shop.Check;
 import shop.Customer;
@@ -29,6 +29,8 @@ public class Cashier implements ICashier {
             } else if (customer.getDiscount() == 0) {
                 customer.setMoney(customer.getMoney() - totalCost);
             }
+
+            customer.setCheck(new Check(customer.getCart()));
 
         } else {
             throw new ArithmeticException("Customer doesn't have enough money");//replace with custom exception

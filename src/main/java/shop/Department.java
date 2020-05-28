@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.StringJoiner;
 
+
 public class Department {
     List<EBrand> brands;
     List<Goods> goods;
@@ -19,6 +20,7 @@ public class Department {
     public List<EBrand> getBrands() {
         return brands;
     }
+
 
     public List<Goods> getGoods() {
         return goods;

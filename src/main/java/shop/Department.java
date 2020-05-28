@@ -1,7 +1,7 @@
 package shop;
 
-import shop.employee.Consultant;
-import shop.employee.Employee;
+import shop.Employee.Consultant;
+import shop.Employee.Employee;
 import shop.enums.EBrand;
 
 import java.util.List;

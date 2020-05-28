@@ -1,8 +1,8 @@
 package shop;
 
+import shop.Employee.Employee;
+import shop.Employee.StoreKeeper;
 
-import shop.employee.Employee;
-import shop.employee.StoreKeeper;
 import shop.enums.EBrand;
 import shop.enums.EDepartment;
 import shop.enums.EGroup;

@@ -1,4 +1,4 @@
-package shop.employee;
+package shop.Employee;
 
 import shop.Check;
 import shop.Customer;

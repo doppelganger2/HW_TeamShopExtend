@@ -43,14 +43,15 @@ public class Customer {
 
     public Check getCheck() {
         return check;
+
     }
 
     public void setMoney(double money) {
         this.money = money;
     }
 
-    public void setDiscount(double discount) {
-        this.discount = discount;
+    public void setCart(List<Goods> cart) {
+        this.cart = cart;
     }
 
     public void setCheck(Check check) {

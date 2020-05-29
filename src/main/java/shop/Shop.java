@@ -1,6 +1,6 @@
 package shop;
 
-import shop.Employee.Cashier;
+import shop.employee.Cashier;
 import shop.employee.Administrator;
 import shop.employee.Security;
 import shop.enums.EDepartment;

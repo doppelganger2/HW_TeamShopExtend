@@ -8,12 +8,13 @@ import shop.enums.EDepartment;
 import shop.enums.EGroup;
 import shop.enums.ERole;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class Storage {
 
-    static Map<String, GoodsWrapper> goodsMap;
+    static Map<String, GoodsWrapper> goodsMap = new HashMap<>();
     static List<EBrand> brands;
     static List<EGroup> groups;
     static List<EDepartment> departments;
@@ -38,4 +39,5 @@ public class Storage {
     public static Employee getStoreKeeper() {
         return storeKeeper;
     }
+
 }

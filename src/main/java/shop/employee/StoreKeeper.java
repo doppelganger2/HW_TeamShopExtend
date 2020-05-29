@@ -190,14 +190,10 @@ public class StoreKeeper extends Employee implements IStoreKeeper {
 
     @Override
     public String generateUniqueName(Goods good) {
-
-        for (GoodsWrapper goodsWrapper : Storage.getGoodsMap().values()) {
-
-            if (goodsWrapper.getGoods().equals(good)) {
-                return good.getUniqueName();
-            } else throw new NoSuchFieldError("There is no product in storage matching the search criteria");
+        if (good == null){
+            return null;
         }
-        return null;
+        return good.getUniqueName();
     }
 
     @Override
@@ -207,11 +203,10 @@ public class StoreKeeper extends Employee implements IStoreKeeper {
             if (Storage.getGoodsMap().get(uniqueName).removeOne() == null) {
                 throw new NoSuchFieldError("There is no product in storage matching the search criteria");
             }
-            Storage.getGoodsMap().get(uniqueName).removeOne();
+            Goods goods = Storage.getGoodsMap().get(uniqueName).removeOne();
             updateCounters();
-            return Storage.getGoodsMap().get(uniqueName).getGoods();
+            return goods;
         }
         return null;
     }
-
 }

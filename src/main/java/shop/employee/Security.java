@@ -17,6 +17,9 @@ public class Security extends Employee implements ISecurity {
 
     @Override
     public boolean checkCustomer(Customer customer) {
+        if(customer.getCheck() == null){
+            return false;
+        }
         customerToken = TokenGenerator.generateToken(customer.getCart());
         return customer.getCheck().getToken().equals(this.customerToken);
     }

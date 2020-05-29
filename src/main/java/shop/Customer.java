@@ -87,4 +87,7 @@ public class Customer {
                 .add("check=" + check)
                 .toString();
     }
+
+    public void setDiscount(float discountValue) {
+    }
 }

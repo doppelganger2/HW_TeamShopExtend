@@ -1,16 +1,23 @@
-package shop.Employee;
+package shop.employee;
 
 import shop.Department;
 import shop.Goods;
 import shop.Interface.IConsultant;
 import shop.enums.EBrand;
 import shop.enums.EGroup;
+import shop.enums.ERole;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+import java.util.StringJoiner;
 
-public class Consultant implements IConsultant {
+public class Consultant extends Employee implements IConsultant {
     Department department;
+
+    public Consultant(String name, ERole role) {
+        super(name, role);
+    }
 
     @Override
     public List<Goods> giveAll() {
@@ -73,14 +80,11 @@ public class Consultant implements IConsultant {
     @Override
     public String giveInfoByName(String name) {
         for (Goods goods : giveAll()) {
-            if (goods.getName().equals(name)){
+            if (goods.getName().equals(name)) {
                 return goods.getInfo();
             }
         }
         return "Sorry, we don't have product with this name";
-
-    public Consultant(String name, ERole role) {
-        super(name, role);
     }
 
 

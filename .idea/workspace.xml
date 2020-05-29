@@ -20,27 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346cfca5-d4a7-48cf-85d2-5789257c97e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/shop/TokenGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Check.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Check.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Cashregister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Cashregister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/shop/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/GoodsWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/GoodsWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Interface/IAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/IAdministrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Interface/ICashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/ICashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Interface/IStoreKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/IStoreKeeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Shop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/shop/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Administrator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Cashier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Consultant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Consultant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Security.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Security.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/StoreKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/StoreKeeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/enums/EBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/enums/EBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/enums/EGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/enums/EGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/enums/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/enums/ERole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/IEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeamShopExtend/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +96,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590683195368" />
+    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590697075891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1590697075891" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590677524189">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -118,6 +108,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590669402587" />
+    <state x="666" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1590697115733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590697115733" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1590697445409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590697445409" />
     <state x="425" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1590691603080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

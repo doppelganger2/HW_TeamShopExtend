@@ -1,7 +1,8 @@
 package shop;
 
-import shop.Employee.Consultant;
-import shop.Employee.Employee;
+import shop.employee.Consultant;
+import shop.employee.Employee;
+import shop.employee.Consultant;
 import shop.enums.EBrand;
 
 import java.util.List;
@@ -30,7 +31,7 @@ public class Department {
         return consultants;
     }
 
-    public void addConsultant(Employee consultant) {
+    public void addConsultant(Consultant consultant) {
         this.consultants.add(consultant);
     }
 

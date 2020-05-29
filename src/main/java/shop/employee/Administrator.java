@@ -28,6 +28,8 @@ public class Administrator extends Employee implements IAdministrator {
 
     @Override
     public void transferConsultant(Consultant consultant, EDepartment targetDepartment) {
+        Shop.getAllDepartments().values().forEach(el -> el.getConsultants().remove(consultant));
         Shop.getDepartment(targetDepartment).addConsultant(consultant);
+        consultant.setDepartment(Shop.getDepartment(targetDepartment));
     }
 }

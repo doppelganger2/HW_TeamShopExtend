@@ -13,7 +13,7 @@ import java.util.Objects;
 import java.util.StringJoiner;
 
 public class Consultant extends Employee implements IConsultant {
-    Department department;
+    private Department department;
 
     public Consultant(String name, ERole role) {
         super(name, role);
@@ -28,7 +28,7 @@ public class Consultant extends Employee implements IConsultant {
     public List<Goods> giveByName(String name) {
         ArrayList<Goods> suggestedGoods = new ArrayList<Goods>();
         for (Goods goods : giveAll()) {
-            if (goods.getName().equals(name)){
+            if (goods.getName().equals(name)) {
                 suggestedGoods.add(goods);
             }
         }
@@ -40,7 +40,7 @@ public class Consultant extends Employee implements IConsultant {
     public List<Goods> giveByGroup(EGroup group) {
         ArrayList<Goods> suggestedGoods = new ArrayList<Goods>();
         for (Goods goods : giveAll()) {
-            if (goods.getGroup().equals(group)){
+            if (goods.getGroup().equals(group)) {
                 suggestedGoods.add(goods);
             }
         }
@@ -52,7 +52,7 @@ public class Consultant extends Employee implements IConsultant {
     public List<Goods> giveByBrands(EBrand brand) {
         ArrayList<Goods> suggestedGoods = new ArrayList<Goods>();
         for (Goods goods : giveAll()) {
-            if (goods.getBrand().equals(brand)){
+            if (goods.getBrand().equals(brand)) {
                 suggestedGoods.add(goods);
             }
         }
@@ -64,17 +64,12 @@ public class Consultant extends Employee implements IConsultant {
     public List<Goods> giveByPrice(double startPrice, double finishPrice) {
         ArrayList<Goods> suggestedGoods = new ArrayList<Goods>();
         for (Goods goods : giveAll()) {
-            if (goods.getPrice() >= startPrice && goods.getPrice() <= finishPrice){
+            if (goods.getPrice() >= startPrice && goods.getPrice() <= finishPrice) {
                 suggestedGoods.add(goods);
             }
         }
 
         return suggestedGoods;
-    }
-
-    @Override
-    public String generateUniqueName() {
-        return null;
     }
 
     @Override
@@ -97,11 +92,8 @@ public class Consultant extends Employee implements IConsultant {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Consultant that = (Consultant) o;
-        return Objects.equals(department, that.department);
+    public boolean equals(Employee e) {
+        return this.getId() == e.getId();
     }
 
     @Override

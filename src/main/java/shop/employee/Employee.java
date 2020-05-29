@@ -1,7 +1,7 @@
 package shop.employee;
 
-import shop.interfaces.IEmployee;
 import shop.enums.ERole;
+import shop.interfaces.IEmployee;
 
 import java.util.Objects;
 import java.util.StringJoiner;
@@ -23,6 +23,10 @@ public class Employee implements IEmployee {
         return name;
     }
 
+    public long getId() {
+        return id;
+    }
+
     public ERole getRole() {
         return role;
     }
@@ -32,14 +36,8 @@ public class Employee implements IEmployee {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Employee employee = (Employee) o;
-        return id == employee.id &&
-                isFree == employee.isFree &&
-                Objects.equals(name, employee.name) &&
-                Objects.equals(role, employee.role);
+    public boolean equals(Employee e) {
+        return this.getId() == e.getId();
     }
 
     @Override

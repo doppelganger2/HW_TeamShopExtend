@@ -1,17 +1,17 @@
 package shop;
 
+import shop.employee.Cashier;
 import shop.interfaces.ICashregister;
-import shop.Employee.Cashier;
 
 import java.util.ArrayDeque;
 import java.util.Objects;
 
 public class CashRegister implements ICashregister {
-   private static int staticId = 0;
-   private int id;
-   private double money;
-   private Cashier cashier;
-   private ArrayDeque<Customer> queue = new ArrayDeque<>();
+    private static int staticId = 0;
+    private int id;
+    private double money;
+    private Cashier cashier;
+    private ArrayDeque<Customer> queue = new ArrayDeque<>();
 
     public CashRegister() {
         this.id = ++staticId;
@@ -42,7 +42,7 @@ public class CashRegister implements ICashregister {
 
     @Override
     public void addCustomerToQueue(Customer customer) {
-        if(queue.isEmpty()){
+        if (queue.isEmpty()) {
             queue.addFirst(customer);
         }
         queue.addLast(customer);
@@ -50,6 +50,6 @@ public class CashRegister implements ICashregister {
 
     @Override
     public void removeCustomerFromQueue() {
-       cashier.transaction(Objects.requireNonNull(queue.pollFirst()));
+        cashier.transaction(Objects.requireNonNull(queue.pollFirst()));
     }
 }

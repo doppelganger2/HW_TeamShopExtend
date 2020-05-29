@@ -15,7 +15,7 @@ public class Shop {
 
     private static Map<EDepartment, Department> departments = new TreeMap();
     private static Storage storage = new Storage();
-    private static Cashregister cashregister = new Cashregister(new Cashier());
+    private static CashRegister cashregister = new CashRegister(new Cashier());
 
 
     public static Department getDepartment(EDepartment department) {

@@ -6,21 +6,36 @@ import shop.Employee.Cashier;
 import java.util.ArrayDeque;
 import java.util.Objects;
 
-public class Cashregister implements ICashregister {
-   private int number;
+public class CashRegister implements ICashregister {
+   private static int staticId = 0;
+   private int id;
    private double money;
    private Cashier cashier;
    private ArrayDeque<Customer> queue = new ArrayDeque<>();
 
-    public Cashregister() {
+    public CashRegister() {
+        this.id = ++staticId;
     }
 
-    public Cashregister(Cashier cashier) {
+    public CashRegister(Cashier cashier) {
+        this.id = ++staticId;
         this.cashier = cashier;
     }
 
-    public Cashregister(int number, double money, Cashier cashier) {
-        this.number = number;
+    public void setCashier(Cashier cashier) {
+        this.cashier = cashier;
+    }
+
+    public Cashier getCashier() {
+
+        return cashier;
+    }
+
+    public double getMoney() {
+        return money;
+    }
+
+    public CashRegister(double money, Cashier cashier) {
         this.money = money;
         this.cashier = cashier;
     }

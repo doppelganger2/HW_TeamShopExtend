@@ -1,4 +1,4 @@
-package shop.Interface;
+package shop.interfaces;
 
 public interface ICustomer {
 }

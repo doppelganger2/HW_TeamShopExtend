@@ -1,11 +1,10 @@
-package shop.Interface;
+package shop.interfaces;
 
 import shop.Goods;
 import shop.GoodsWrapper;
 import shop.enums.EBrand;
 import shop.enums.EDepartment;
 import shop.enums.EGroup;
-import shop.enums.ERole;
 
 import java.util.List;
 

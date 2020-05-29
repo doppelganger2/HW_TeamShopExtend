@@ -2,7 +2,7 @@ package shop.employee;
 
 import shop.Goods;
 import shop.GoodsWrapper;
-import shop.Interface.IStoreKeeper;
+import shop.interfaces.IStoreKeeper;
 import shop.Storage;
 import shop.enums.EBrand;
 import shop.enums.EDepartment;

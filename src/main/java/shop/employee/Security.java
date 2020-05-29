@@ -1,7 +1,7 @@
 package shop.employee;
 
 import shop.Customer;
-import shop.Interface.ISecurity;
+import shop.interfaces.ISecurity;
 import shop.TokenGenerator;
 import shop.enums.ERole;
 

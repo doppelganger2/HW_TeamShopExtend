@@ -1,6 +1,6 @@
 package shop.employee;
 
-import shop.Interface.IEmployee;
+import shop.interfaces.IEmployee;
 import shop.enums.ERole;
 
 import java.util.Objects;

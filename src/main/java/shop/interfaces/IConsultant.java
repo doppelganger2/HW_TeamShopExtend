@@ -1,11 +1,9 @@
-package shop.Interface;
+package shop.interfaces;
 
 import shop.Goods;
 import shop.enums.EBrand;
-import shop.enums.EDepartment;
 import shop.enums.EGroup;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public interface IConsultant {

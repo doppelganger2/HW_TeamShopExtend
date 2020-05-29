@@ -1,4 +1,4 @@
-package shop.Interface;
+package shop.interfaces;
 
 import shop.Customer;
 

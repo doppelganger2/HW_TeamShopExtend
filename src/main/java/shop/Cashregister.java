@@ -1,6 +1,6 @@
 package shop;
 
-import shop.Interface.ICashregister;
+import shop.interfaces.ICashregister;
 import shop.Employee.Cashier;
 
 import java.util.ArrayDeque;

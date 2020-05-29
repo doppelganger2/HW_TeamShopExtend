@@ -1,11 +1,11 @@
 package shop.employee;
 
-import shop.Interface.IAdministrator;
+import shop.interfaces.IAdministrator;
 import shop.Shop;
 import shop.enums.EDepartment;
 import shop.enums.ERole;
 
-import java.util.Optional;
+import java.util.NoSuchElementException;
 
 public class Administrator extends Employee implements IAdministrator {
 
@@ -20,8 +20,10 @@ public class Administrator extends Employee implements IAdministrator {
     }
 
     @Override
-    public Optional<Employee> findFreeConsultant(EDepartment department) {
-        return Shop.getDepartment(department).getConsultants().stream().filter(Employee::isFree).findFirst();
+    public Employee findFreeConsultant(EDepartment department) {
+        return Shop.getDepartment(department).getConsultants().stream().filter(Employee::isFree)
+                .findFirst().orElseThrow(() ->
+                        new NoSuchElementException("All consultants are busy at this time"));
     }
 
     @Override

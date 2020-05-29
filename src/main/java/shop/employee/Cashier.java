@@ -3,7 +3,7 @@ package shop.Employee;
 import shop.Check;
 import shop.Customer;
 import shop.Goods;
-import shop.Interface.ICashier;
+import shop.interfaces.ICashier;
 
 import java.util.List;
 

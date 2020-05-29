@@ -2,7 +2,7 @@ package shop.employee;
 
 import shop.Department;
 import shop.Goods;
-import shop.Interface.IConsultant;
+import shop.interfaces.IConsultant;
 import shop.enums.EBrand;
 import shop.enums.EGroup;
 import shop.enums.ERole;

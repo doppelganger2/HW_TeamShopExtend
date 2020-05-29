@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="346cfca5-d4a7-48cf-85d2-5789257c97e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Cashregister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Cashregister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/TokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/TokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Interface/IAdministrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Interface/IAdministrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Administrator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TeamShopExtend/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

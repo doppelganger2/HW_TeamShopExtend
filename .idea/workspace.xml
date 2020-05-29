@@ -22,10 +22,8 @@
     <list default="true" id="346cfca5-d4a7-48cf-85d2-5789257c97e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/shop/Cashregister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Cashregister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/Consultant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/employee/Consultant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/employee/IEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/TokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/TokenGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TeamShopExtend/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,10 +90,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590570140751" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1590683195368">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1590743820594">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590683195368" />
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590743820594" />
     <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590697075891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

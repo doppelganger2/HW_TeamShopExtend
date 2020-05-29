@@ -7,10 +7,23 @@ import java.util.ArrayDeque;
 import java.util.Objects;
 
 public class Cashregister implements ICashregister {
-    int number;
-    double money;
-    Cashier cashier;
-   ArrayDeque<Customer> queue = new ArrayDeque<>();
+   private int number;
+   private double money;
+   private Cashier cashier;
+   private ArrayDeque<Customer> queue = new ArrayDeque<>();
+
+    public Cashregister() {
+    }
+
+    public Cashregister(Cashier cashier) {
+        this.cashier = cashier;
+    }
+
+    public Cashregister(int number, double money, Cashier cashier) {
+        this.number = number;
+        this.money = money;
+        this.cashier = cashier;
+    }
 
     @Override
     public void addCustomerToQueue(Customer customer) {

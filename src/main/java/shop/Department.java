@@ -2,18 +2,15 @@ package shop;
 
 import shop.employee.Consultant;
 import shop.employee.Employee;
-import shop.employee.Consultant;
 import shop.enums.EBrand;
 
-import java.util.List;
-import java.util.Objects;
-import java.util.StringJoiner;
+import java.util.*;
 
 
 public class Department {
-    List<EBrand> brands;
-    List<Goods> goods;
-    List<Employee> consultants;
+    List<EBrand> brands = new ArrayList<>();
+    List<Goods> goods = new ArrayList<>();
+    List<Employee> consultants = new ArrayList<>();
 
     public Department() {
     }
@@ -37,6 +34,10 @@ public class Department {
 
     public void removeConsultant(Employee consultant) {
         this.consultants.remove(consultant);
+    }
+
+    public void addGoods(Goods... goods) {
+        this.goods.addAll(Arrays.asList(goods));
     }
 
     @Override

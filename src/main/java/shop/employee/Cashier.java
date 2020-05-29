@@ -1,16 +1,21 @@
-package shop.Employee;
+package shop.employee;
 
 import shop.Check;
 import shop.Customer;
 import shop.Goods;
+import shop.enums.ERole;
 import shop.interfaces.ICashier;
 
 import java.util.List;
 
-public class Cashier implements ICashier {
+public class Cashier extends Employee implements ICashier {
 
     public final double discountSum = 1000;
     public final float discountValue = 0.05F;
+
+    public Cashier(String name, ERole role) {
+        super(name, role);
+    }
 
 
     public double getTotalCost(List<Goods> goods) {
@@ -33,7 +38,7 @@ public class Cashier implements ICashier {
             customer.setCheck(new Check(customer.getCart()));
 
         } else {
-            throw new ArithmeticException("Customer doesn't have enough money");//replace with custom exception
+            throw new ArithmeticException("Customer doesn't have enough money");
         }
         return new Check(customer.getCart());
     }

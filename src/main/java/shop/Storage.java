@@ -1,23 +1,24 @@
 package shop;
 
-import shop.employee.Employee;
 import shop.employee.StoreKeeper;
-
 import shop.enums.EBrand;
 import shop.enums.EDepartment;
 import shop.enums.EGroup;
 import shop.enums.ERole;
+import shop.interfaces.IStoreKeeper;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class Storage {
 
-    static Map<String, GoodsWrapper> goodsMap;
-    static List<EBrand> brands;
-    static List<EGroup> groups;
-    static List<EDepartment> departments;
-    static Employee storeKeeper = new StoreKeeper("Semen", ERole.STORE_KEEPER);
+    private static IStoreKeeper storeKeeper = new StoreKeeper("Semen", ERole.STORE_KEEPER);
+    private static Map<String, GoodsWrapper> goodsMap = new HashMap<>();
+    private static List<EBrand> brands = new ArrayList<>();
+    private static List<EGroup> groups = new ArrayList<>();
+    private static List<EDepartment> departments = new ArrayList<>();
 
     public static Map<String, GoodsWrapper> getGoodsMap() {
         return goodsMap;
@@ -35,7 +36,7 @@ public class Storage {
         return departments;
     }
 
-    public static Employee getStoreKeeper() {
+    public static IStoreKeeper getStoreKeeper() {
         return storeKeeper;
     }
 }
